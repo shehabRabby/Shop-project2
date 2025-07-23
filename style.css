@@ -10,16 +10,16 @@
 .Inter{
      font-family: "Inter", sans-serif;
 }
-
-
-.page-contain{
+.page-container{
     max-width: 90%;
     margin: 0 auto;
     margin-top: 30px;
     border: 1px solid black;
 }
 
-
+body{
+    background-color: #F5F8FF;
+}
 
 /* nav section */
 nav{
@@ -57,7 +57,7 @@ nav a{
     align-items: end;
 }
 
-.banner-flower, figure img{
+.banner-flower{
    display: block;
 }
 
@@ -104,14 +104,63 @@ nav a{
 
 
 
+/* flower-jar-card */
+.jar-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.card{
+    max-width: 100%;
+    margin: 0;
+    box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+    -webkit-box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+    -moz-box-shadow: 0px 3px 21px -7px rgba(4,1,1,0.86);
+}
+
+.image-box{
+    width: 100%;
+}
+
+.image-contain{
+    width: 100%;
+}
 
 
+.flower-name{
+   justify-items: center;
+}
+
+.flower-name h3{
+    color: black;
+    font-weight: 500;
+    font-size: 1.37rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.price{
+    font-size: 1.73rem;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-btn{
+    width: 100%;
+    padding: 18px 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+}
 
 
-
-
-
-
+/* Flower and Plants Lover */
 
 
 
@@ -166,6 +215,31 @@ nav a{
 }
 .common-title{
     font-size: 1.6rem;
+}
+
+
+/* jar card container */
+.jar-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.flower-name h3{
+    font-size: 1.1rem;
+    padding: 3px;
+}
+.price{
+    font-size: .9rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.card-btn{
+    padding: 10px 10px;
+    background-color: #ff3300;
+    font-size: .8rem;
+}
+
+.card{
+    max-width: 300px;
 }
 
 }
@@ -227,5 +301,16 @@ nav a{
 .common-title{
     font-size: 2rem;
 }
+
+
+/* jar-flower-container */
+.jar-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.card-btn{
+    background-color: #67b41ad9;
+}
+
+
 
 }
