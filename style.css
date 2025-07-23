@@ -4,17 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.noto-serif{
+.Noto-serif{
     font-family: "Noto Serif", serif;
 }
 .Inter{
      font-family: "Inter", sans-serif;
 }
 
+
 .page-contain{
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     margin-top: 30px;
+    border: 1px solid black;
 }
 
 
@@ -46,6 +48,67 @@ nav a{
     font-size: 1rem;
 }
 
+/* header section */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: end;
+}
+
+.banner-flower, figure img{
+   display: block;
+}
+
+.head-title1{
+    color: black;
+    font-size: 4.06rem;
+    font-weight: 700;
+    max-width: 570px;
+}
+
+.color-head-title1{
+    color: #E95A08;
+}
+
+.paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 570px;
+    margin-top: 12px;
+}
+
+/* Our Plants*/
+.plants-container{
+    text-align: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+.paragraph-text{
+    max-width: 70%;
+    text-align: center;
+}
+.common-title{
+    color: black;
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+
+.common-title span{
+    color: #E95A08;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,11 +126,12 @@ nav a{
 
 
 /* responsive section starts here */
+/* small devices */
 
 @media screen and (min-width:350px) and (max-width: 576px) {
 
 
-    /* Nav section */
+ /* Nav section */
 .nav-hide{
         display: none;
     }
@@ -76,15 +140,57 @@ nav a{
     margin-top: 30px;
     }
 
+
+/* banner */
+.banner{
+    flex-direction: column-reverse;
+    gap: 50px;
 }
+
+.banner-flower, figure img{
+   max-width: 100%;
+}
+
+.head-title1{
+    font-size: 1.5rem;
+   
+}
+
+.paragraph{
+    font-size: 0.873rem;
+}
+
+/* Our Plants */
+.paragraph-text{
+    max-width: 100%; 
+}
+.common-title{
+    font-size: 1.6rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* large device */
 @media screen and (min-width:577px) and (max-width: 992px) {
 
-    /* Nav section */
-
+ /* Nav section */
 .nav-hide{
         display: none;
     }
@@ -92,5 +198,34 @@ nav a{
 .nav-items{
     margin-top: 30px;
     }
+
+
+/* Banner */
+.banner{
+    flex-direction: column;
+    gap: 50px;
+    align-items:center;
+}
+
+.banner-flower, figure img{
+   max-width: 100%;
+}
+
+.head-title1{
+    font-size: 2.4rem;
+}
+
+.paragraph{
+    font-size: 1.3rem;
+}
+
+
+/* Our Plants */
+.paragraph-text{
+    max-width: 100%; 
+}
+.common-title{
+    font-size: 2rem;
+}
 
 }
