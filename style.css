@@ -151,8 +151,16 @@ nav a{
     font-weight: 600;
     background-color: #E95A08;
     border: none;
+    cursor: pointer;
 }
 
+
+
+.card-btn:hover{
+    background: #833AB4;
+    background: linear-gradient(229deg, rgba(131, 58, 180, 1) 0%, rgba(145, 55, 163, 1) 6%, rgba(253, 29, 29, 1) 45%, rgba(230, 142, 0, 1) 95%);
+
+}
 
 /* Flower and Plants Lover */
 .ture-seller-container{
@@ -323,6 +331,12 @@ nav a{
   cursor: pointer;
 }
 
+button:hover{
+     transition:  2s;
+     background: #833AB4;
+     background: linear-gradient(277deg, rgba(131, 58, 180, 1) 0%, rgba(0, 0, 0, 0.82) 0%, rgba(130, 253, 29, 1) 0%, rgba(249, 116, 26, 1) 24%, rgba(211, 230, 0, 1) 100%);
+}
+
 
 /* footer section */
 footer{
@@ -376,22 +390,6 @@ footer{
     margin-top: -150px;
     gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
