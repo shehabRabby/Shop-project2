@@ -14,7 +14,6 @@
     max-width: 90%;
     margin: 0 auto;
     margin-top: 30px;
-    border: 1px solid black;
 }
 
 body{
@@ -85,7 +84,8 @@ nav a{
 .plants-container{
     text-align: center;
     justify-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .paragraph-text{
     max-width: 70%;
@@ -285,7 +285,7 @@ nav a{
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 100px;
     justify-items: center;
     text-align: center;
     padding: 200px;
@@ -327,7 +327,6 @@ nav a{
 /* footer section */
 footer{
     margin-top: 50px;
-    border: 1px solid black;
     font-size: 1rem;
     font-weight: 400;
     color: #6B7280;
