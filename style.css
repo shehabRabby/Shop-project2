@@ -48,7 +48,7 @@ nav a{
     font-size: 1rem;
 }
 
-/* header section */
+/* header Banner*/
 
 .banner{
     display: flex;
@@ -111,7 +111,6 @@ nav a{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     justify-items: center;
-    padding: 0;
     width: 100%;
 }
 
@@ -161,6 +160,187 @@ nav a{
 
 
 /* Flower and Plants Lover */
+
+
+/* Latest Deals same as our plants */
+/* Latest Deals offer cards */
+.offer-cards{
+    display: grid;
+    grid-template-columns: calc(30% - 15px) calc(70% - 15px);
+    gap:30px;
+}
+
+.box1,
+.box3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-ana.png);
+    padding: 70px 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.box3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-bloom.png);
+    padding: 70px 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.box2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    max-width: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    grid-row: span 2;
+}
+
+.ancore{
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.box13-off{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.box2-off{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.box2 a{
+    font-size: 1.8rem;
+}
+
+/* join colorful branch */
+.colorful-branch{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 30px;
+    justify-items: center;
+    text-align: center;
+    padding: 200px;
+    height: 450px;
+}
+.search-subscribe{
+  height: 40px;
+  max-width: 650px;
+  display: flex;
+  overflow: hidden;
+}
+
+.branch-title{
+    color: white;
+    font-size: 3.125rem;
+    margin-bottom: 10px;
+}
+
+.search-subscribe input{
+  padding-left:20px;
+  margin-left: 0px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 650px;
+}
+
+.search-subscribe button{
+  width: 186px;
+  background-color: rgb(233, 90, 8);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* footer section */
+footer{
+    margin-top: 50px;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6B7280;
+    padding: 50px 160px;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 30px;
+}
+.footer-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 100px;
+}
+
+.footer-para{
+    text-align: justify;
+    width: 100%;
+    margin-top: 10px;
+}
+.item-1,
+.item-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+  
+}
+
+.item-1 a, .item-2 a{
+    text-decoration: none;
+    color: #6B7280;
+}
+.logo-tools{
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    gap: 30px;
+}
+
+.align-logo{
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,9 +422,96 @@ nav a{
     max-width: 300px;
 }
 
+
+/* latest offer */
+.offer-cards{
+    grid-template-columns: 1fr;
+    justify-items:auto;
+    padding: 10px;
+}
+
+.box2{
+    width: 100%;
+    height: 206px;
+    border-radius: 5px;
+}
+
+.box1{
+    border-radius: 5px;
+}
+.box1 h4, .box2 h4, .box3 h4{
+    font-size: .95rem;
+}
+
+.box1 a, .box2 a, .box3 a{
+    font-size: .6rem;
+}
+.box3{
+    border-radius: 0px;
 }
 
 
+/* join-branch */
+.colorful-branch{
+    padding: 50px;
+    height: 200px;
+}
+
+.search-subscribe{
+  height: 45px;
+  width: 325px;
+}
+
+.search-subscribe input{
+  font-size: .81rem;
+}
+
+.search-subscribe button{
+  width: 300px;
+  background-color: rgb(234, 200, 30);
+  font-size: .81rem;
+  color: black;
+}
+
+/* footer */
+footer{
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.footer-items{
+    grid-template-columns: 1fr;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.footer-para{
+    text-align: left;
+}
+
+.item-1,
+.item-2{
+    gap: 15px;
+}
+
+.item-2{
+    margin-top: 20px;
+}
+
+.align-logo{
+    margin-top: -0px;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+
+}
 
 
 
@@ -311,6 +578,85 @@ nav a{
     background-color: #67b41ad9;
 }
 
+/* Leatest Deals offer */
+.offer-cards{
+    grid-template-columns: 1fr;
+    justify-items:auto;
+    padding: 10px;
+}
 
+.box3, .box2, .box1{
+    border-radius: 0px;
+}
+
+.box1 h4, .box2 h4, .box3 h4{
+    font-size: 2rem;
+}
+
+.box1 a, .box2 a, .box3 a{
+    font-size: 1.2rem;
+}
+
+.box2{
+    width: 100%;
+    height: 206px;
+}
+
+.box2-off{
+    font-size: 1.25rem;
+}
+
+.box2 a{
+    font-size: 1.25rem;
+}
+
+/* join -branch */
+.colorful-branch{
+    padding: 100px;
+    height: 300px;
+}
+.search-subscribe{
+  width: 525px;
+}
+.search-subscribe button{
+  background-color: rgb(245, 71, 8);
+  font-size: .81rem;
+}
+
+/* footer-section */
+footer{
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.footer-items{
+    grid-template-columns:1fr;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.footer-para{
+    text-align: left;
+}
+
+.item-1,
+.item-2{
+    gap: 15px;
+}
+
+.item-2{
+    margin-top: 20px;
+}
+
+.align-logo{
+    margin-top: -0px;
+    padding-top: 10px;
+}
 
 }
