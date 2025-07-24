@@ -333,8 +333,7 @@ nav a{
 
 button:hover{
      transition:  2s;
-     background: #833AB4;
-     background: linear-gradient(277deg, rgba(131, 58, 180, 1) 0%, rgba(0, 0, 0, 0.82) 0%, rgba(130, 253, 29, 1) 0%, rgba(249, 116, 26, 1) 24%, rgba(211, 230, 0, 1) 100%);
+     background-image: linear-gradient(to right, #cfe859, #ced448, #ccc139, #c8ae2c, #c39b21);
 }
 
 
