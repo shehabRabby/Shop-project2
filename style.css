@@ -11,9 +11,11 @@
      font-family: "Inter", sans-serif;
 }
 .page-container{
-    max-width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 body{
