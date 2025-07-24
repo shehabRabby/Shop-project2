@@ -160,6 +160,56 @@ nav a{
 
 
 /* Flower and Plants Lover */
+.ture-seller-container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.plants{
+    margin-top: 150px;
+}
+
+.trust-seller{
+    max-width: 540px;
+    max-height: 597px;
+    position: relative;
+}
+
+.trusted-sale{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -120px;
+    left: 380px;
+}
+.trusted-sale img{
+    width: 100%;
+}
+
+.plants-lover-description{
+    max-width: 700px;
+    max-height: 520px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    margin-left: 25px;
+}
+.plants-lover-description ul li p{
+    margin-bottom: 15px;
+}
+
+
+.plants-title{
+    font-weight: 700;
+    font-size: 3.125rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 /* Latest Deals same as our plants */
@@ -423,6 +473,31 @@ footer{
 }
 
 
+/* Plants lover */
+.ture-seller-container{
+    flex-direction: column;
+}
+
+.plants{
+    margin-top: 70px;
+}
+  
+.trust-seller img{
+    max-width: 100%;
+}
+
+.plants-lover-description{
+    font-size: 1rem;
+}
+.plants-title{
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.trust-hide{
+    display: none;
+}
+
+
 /* latest offer */
 .offer-cards{
     grid-template-columns: 1fr;
@@ -576,6 +651,30 @@ footer{
 }
 .card-btn{
     background-color: #67b41ad9;
+}
+
+/* Plants lover */
+.ture-seller-container{
+    flex-direction: column;
+}
+
+.plants{
+    margin-top: 70px;
+}
+  
+.trust-seller img{
+    max-width: 100%;
+}
+
+.plants-lover-description{
+    font-size: 1rem;
+}
+.plants-title{
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.trust-hide{
+    display: none;
 }
 
 /* Leatest Deals offer */
